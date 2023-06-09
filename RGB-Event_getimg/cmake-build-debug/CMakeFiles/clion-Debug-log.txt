@@ -1,0 +1,5 @@
+/home/emrys/clion-2023.1.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/emrys/clion-2023.1.2/bin/ninja/linux/x64/ninja -G Ninja -S /home/emrys/CLionProjects/RGB-Event_getimg -B /home/emrys/CLionProjects/RGB-Event_getimg/cmake-build-debug
+-- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/emrys/CLionProjects/RGB-Event_getimg/cmake-build-debug
