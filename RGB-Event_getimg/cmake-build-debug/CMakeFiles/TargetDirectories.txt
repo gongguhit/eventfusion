@@ -1,0 +1,3 @@
+/home/emrys/CLionProjects/RGB-Event_getimg/cmake-build-debug/CMakeFiles/RGB_Event_getimg.dir
+/home/emrys/CLionProjects/RGB-Event_getimg/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/emrys/CLionProjects/RGB-Event_getimg/cmake-build-debug/CMakeFiles/rebuild_cache.dir
