@@ -1,3 +1,0 @@
-/home/ggx1c/event/dvs/build/CMakeFiles/dvs.dir
-/home/ggx1c/event/dvs/build/CMakeFiles/edit_cache.dir
-/home/ggx1c/event/dvs/build/CMakeFiles/rebuild_cache.dir
