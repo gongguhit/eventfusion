@@ -1,0 +1,4 @@
+/home/ggx1c/event/eventfusion/dvstest/build/CMakeFiles/dvstest.dir
+/home/ggx1c/event/eventfusion/dvstest/build/CMakeFiles/eventstore.dir
+/home/ggx1c/event/eventfusion/dvstest/build/CMakeFiles/edit_cache.dir
+/home/ggx1c/event/eventfusion/dvstest/build/CMakeFiles/rebuild_cache.dir
