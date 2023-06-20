@@ -130,6 +130,32 @@ dvstest/fast:
 .PHONY : dvstest/fast
 
 #=============================================================================
+# Target rules for targets named event_lk_tracker
+
+# Build rule for target.
+event_lk_tracker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 event_lk_tracker
+.PHONY : event_lk_tracker
+
+# fast build rule for target.
+event_lk_tracker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_lk_tracker.dir/build.make CMakeFiles/event_lk_tracker.dir/build
+.PHONY : event_lk_tracker/fast
+
+#=============================================================================
+# Target rules for targets named event_ms_tracker
+
+# Build rule for target.
+event_ms_tracker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 event_ms_tracker
+.PHONY : event_ms_tracker
+
+# fast build rule for target.
+event_ms_tracker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_ms_tracker.dir/build.make CMakeFiles/event_ms_tracker.dir/build
+.PHONY : event_ms_tracker/fast
+
+#=============================================================================
 # Target rules for targets named eventstore
 
 # Build rule for target.
@@ -166,6 +192,54 @@ src/dvstest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dvstest.dir/build.make CMakeFiles/dvstest.dir/src/dvstest.cpp.s
 .PHONY : src/dvstest.cpp.s
 
+src/event_lk_tracker.o: src/event_lk_tracker.cpp.o
+.PHONY : src/event_lk_tracker.o
+
+# target to build an object file
+src/event_lk_tracker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_lk_tracker.dir/build.make CMakeFiles/event_lk_tracker.dir/src/event_lk_tracker.cpp.o
+.PHONY : src/event_lk_tracker.cpp.o
+
+src/event_lk_tracker.i: src/event_lk_tracker.cpp.i
+.PHONY : src/event_lk_tracker.i
+
+# target to preprocess a source file
+src/event_lk_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_lk_tracker.dir/build.make CMakeFiles/event_lk_tracker.dir/src/event_lk_tracker.cpp.i
+.PHONY : src/event_lk_tracker.cpp.i
+
+src/event_lk_tracker.s: src/event_lk_tracker.cpp.s
+.PHONY : src/event_lk_tracker.s
+
+# target to generate assembly for a file
+src/event_lk_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_lk_tracker.dir/build.make CMakeFiles/event_lk_tracker.dir/src/event_lk_tracker.cpp.s
+.PHONY : src/event_lk_tracker.cpp.s
+
+src/event_ms_tracker.o: src/event_ms_tracker.cpp.o
+.PHONY : src/event_ms_tracker.o
+
+# target to build an object file
+src/event_ms_tracker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_ms_tracker.dir/build.make CMakeFiles/event_ms_tracker.dir/src/event_ms_tracker.cpp.o
+.PHONY : src/event_ms_tracker.cpp.o
+
+src/event_ms_tracker.i: src/event_ms_tracker.cpp.i
+.PHONY : src/event_ms_tracker.i
+
+# target to preprocess a source file
+src/event_ms_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_ms_tracker.dir/build.make CMakeFiles/event_ms_tracker.dir/src/event_ms_tracker.cpp.i
+.PHONY : src/event_ms_tracker.cpp.i
+
+src/event_ms_tracker.s: src/event_ms_tracker.cpp.s
+.PHONY : src/event_ms_tracker.s
+
+# target to generate assembly for a file
+src/event_ms_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_ms_tracker.dir/build.make CMakeFiles/event_ms_tracker.dir/src/event_ms_tracker.cpp.s
+.PHONY : src/event_ms_tracker.cpp.s
+
 src/eventstore.o: src/eventstore.cpp.o
 .PHONY : src/eventstore.o
 
@@ -199,10 +273,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dvstest"
+	@echo "... event_lk_tracker"
+	@echo "... event_ms_tracker"
 	@echo "... eventstore"
 	@echo "... src/dvstest.o"
 	@echo "... src/dvstest.i"
 	@echo "... src/dvstest.s"
+	@echo "... src/event_lk_tracker.o"
+	@echo "... src/event_lk_tracker.i"
+	@echo "... src/event_lk_tracker.s"
+	@echo "... src/event_ms_tracker.o"
+	@echo "... src/event_ms_tracker.i"
+	@echo "... src/event_ms_tracker.s"
 	@echo "... src/eventstore.o"
 	@echo "... src/eventstore.i"
 	@echo "... src/eventstore.s"
