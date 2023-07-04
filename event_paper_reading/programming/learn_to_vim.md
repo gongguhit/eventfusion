@@ -136,3 +136,62 @@ array[7] = 0;
 192.168.0.9
 192.168.0.10
 
+4.记录宏
+
+q                     a                    <operation>          q  
+--------------------  -------------------- -------------------- --------------------   
+record command      record to register a  operation            record finished
+
+`qa<operation>q`
+
+使用宏：
+@a
+<number>@a
+
+Recursively usage
+
+########################################
+q                             a                    <operation>              @a                q 
+---------------------  -------------------- -------------------- -------------------- --------------------  
+record command         record to register a      operation                recursive        record finished
+
+
+替代方案
+
+加行号：
+`%s/^/\=printf('%-4d', line('.'))`
+
+%s: 替换每一行
+/^: 行首
+/\=: 转义=
+line('.'): 当前行
+
+
+6. search
+
+Normal mode
+
+模糊匹配
+`/` : from top to bottom
+`?` : bottom to top
+
+`n/N` to pick up next/previous
+
+`*/#`: 精确搜索
+`g# == ?` : 模糊搜索
+
+7. regular expression
+
+[ab1]
+[0-9]
+[a-z]
+[A-Z]
+
+`\v` to transfer general regular expression
+
+[^a-z]: except a-z
+
+.   任意一个字符 单独占位
+?   没有或者一个 对前一个字符
+*   没有或者多个 对前一个字符
++   一个或者多个 对前一个字符
