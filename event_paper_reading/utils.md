@@ -48,6 +48,8 @@
 - [CVPR2023] Adaptive Global Decay Process for Event Cameras
     - Code: https://github.com/neuromorphicparis/event_batch
 
+- [RAL] Efficient Spatial-Temporal Normalization of SAE Representation for Event Camera
+
 
 #### 1.4 Fusion
 
