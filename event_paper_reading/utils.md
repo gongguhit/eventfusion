@@ -155,6 +155,11 @@
 
 - [CVPR2023] All-in-focus Imaging from Event Focal Stack
     - https://hylz-2019.github.io/EFS
+
+#### 1.18 Servoing
+
+- Neuromorphic Eye-in-Hand Visual Servoing
+    - **Paper:** Neuromorphic Eye-in-Hand Visual Servoing
 ### 2.3D Object Detectioon
 
 - PIXOR: Real-time 3D Object Detection from Point Clouds:
@@ -162,6 +167,7 @@
 - enter-based 3D Object Detection and Tracking
 
 - 3D Object Detection with Pointformer
+
 
 ### ICRA 2023 Papers
 
